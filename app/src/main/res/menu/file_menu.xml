@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item android:id="@+id/addImage"
+        android:title="@string/add_image"
+        android:icon="@drawable/ic_scan"
+        app:showAsAction="always"/>
+
+    <item android:id="@+id/generatePdf"
+        android:title="@string/generate_pdf"
+        android:icon="@drawable/ic_pdf2"
+        app:showAsAction="always"/>
+
+    <item android:id="@+id/renameFile"
+        android:title="@string/rename"/>
+
+    <item android:id="@+id/order"
+        android:title="@string/order"/>
+
+    <item android:id="@+id/deleteFile"
+        android:title="@string/delete"/>
+
+</menu>

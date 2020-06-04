@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <item
+        android:id="@+id/search"
+        android:icon="@drawable/ic_search"
+        android:title="@string/search"
+        app:showAsAction="always" />
+
+
+    <item
+        android:id="@+id/renameFolder"
+        android:title="@string/rename" />
+
+    <item
+        android:id="@+id/deleteFolder"
+        android:title="@string/delete" />
+
+
+    <item android:title="@string/view_as">
+        <menu>
+            <item
+                android:id="@+id/bigItem"
+                android:title="@string/big_items" />
+            <item
+                android:id="@+id/smallItem"
+                android:title="@string/small_items" />
+        </menu>
+    </item>
+
+    <item
+        android:id="@+id/exportDB"
+        android:title="@string/export_database" />
+    <item
+        android:id="@+id/importDB"
+        android:title="@string/import_database" />
+
+</menu>
